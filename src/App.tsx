@@ -2,7 +2,10 @@ import MorpionGame from "./MorpionGame";
 
 function App() {
   return (
-    <div>
+    <div style={{
+      backdropFilter: "blur(8px)",
+      WebkitBackdropFilter: "blur(8px)",
+    }}>
       <MorpionGame />
     </div>
   );
