@@ -38,12 +38,12 @@ export default function Lobby({
           onChange={(e) => onRoomNameChange(e.target.value)}
           style={{ width: "95%", marginBottom: 8, padding: 8 }}
         />
-        <button type="submit" style={{ width: "100%", padding: 10, background: "#5050ff", color: "#fff", border: "none", borderRadius: 4 }}>
+        <button type="submit" style={{ width: "100%", padding: 10, background: "#2C275C", color: "#fff", border: "none", borderRadius: 4 }}>
           Créer une partie
         </button>
       </form>
       <form onSubmit={onJoin}>
-        <button type="submit" style={{ width: "100%", padding: 10, background: "#2c9b1f", color: "#fff", border: "none", borderRadius: 4 }}>
+        <button type="submit" style={{ width: "100%", padding: "10px 40px", background: "#8D3299", color: "#fff", border: "none", borderRadius: 4, marginBottom: "19px" }}>
           Rejoindre la partie
         </button>
       </form>
