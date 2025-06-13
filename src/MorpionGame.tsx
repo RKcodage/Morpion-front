@@ -4,7 +4,7 @@ import Lobby from "./components/Lobby";
 import GameBoard from "./components/GameBoard";
 import GameStatus from "./components/GameStatus";
 
-const SOCKET_URL = "http://localhost:3000"; 
+const SOCKET_URL = "https://site--morpion-backend--j4bvpcm69yz6.code.run/"; 
 
 type Player = {
   socketId: string;
